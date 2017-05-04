@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="matriz">
+	<table_data name="disciplina">
+	</table_data>
+	<table_data name="grande_tema">
+	</table_data>
+	<table_data name="habilidade">
+	</table_data>
+	<table_data name="item">
+	</table_data>
+	<table_data name="objeto_conhecimento">
+	</table_data>
+</database>
+</mysqldump>

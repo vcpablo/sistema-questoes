@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="matriz_test">
+	<table_data name="objeto_conhecimento">
+	<row>
+		<field name="id">1</field>
+		<field name="descricao">Objeto de Conhecimento Ativo</field>
+		<field name="grande_tema_id">1</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="descricao">Objeto de Conhecimento Inativo</field>
+		<field name="grande_tema_id">1</field>
+		<field name="status">INATIVO</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="descricao">Objeto de Conhecimento Excluído</field>
+		<field name="grande_tema_id">1</field>
+		<field name="status">EXCLUIDO</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="descricao">Objeto de Conhecimento Grande Tema Inativo</field>
+		<field name="grande_tema_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="descricao">Objeto de Conhecimento Grande Tema Excluído</field>
+		<field name="grande_tema_id">3</field>
+		<field name="status">EXCLUIDO</field>
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="descricao">Objeto de Conhecimento Grande Tema Disciplina Inativa</field>
+		<field name="grande_tema_id">4</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="descricao">Objeto de Conhecimento Grande Tema Disciplina Excluída</field>
+		<field name="grande_tema_id">5</field>
+		<field name="status">ATIVO</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

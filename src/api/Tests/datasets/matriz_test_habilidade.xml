@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="matriz_test">
+	<table_data name="habilidade">
+	<row>
+		<field name="id">1</field>
+		<field name="enunciado">Habilidade 1 - Compreender (discursiva)</field>
+		<field name="competencia">COMPREENDER</field>
+		<field name="tipo">DISCURSIVA</field>
+		<field name="objeto_conhecimento_id">1</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="enunciado">Habilidade 2 - Realizar (múltipla escolha)</field>
+		<field name="competencia">REALIZAR</field>
+		<field name="tipo">MULTIPLA_ESCOLHA</field>
+		<field name="objeto_conhecimento_id">1</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="enunciado">Habilidade 3 - Observar (verdadeiro/falso)</field>
+		<field name="competencia">OBSERVAR</field>
+		<field name="tipo">VERDADEIRO_FALSO</field>
+		<field name="objeto_conhecimento_id">1</field>
+		<field name="status">ATIVO</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

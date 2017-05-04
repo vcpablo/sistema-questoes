@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="matriz_test">
+	<table_data name="item">
+	<row>
+		<field name="id">1</field>
+		<field name="description">Item 1 - Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="description">Item 2 - Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="description">Item 3 - Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="description">Item 4 - Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="description">Item 5 - Habilidade 2 (Correta)</field>
+		<field name="correto">1</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="description">Item 1 - Habilidade 3 (falso)</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="description">Item 2 - Habilidade 3 (correto)</field>
+		<field name="correto">1</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">8</field>
+		<field name="description">Item 3 - Habilidade 3 (falso)</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">9</field>
+		<field name="description">Item 4- Habilidade 3 (correto)</field>
+		<field name="correto">1</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">10</field>
+		<field name="description">Item 5 - Habilidade 3 (falso)</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">11</field>
+		<field name="description">Item Inativo Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">INATIVO</field>
+	</row>
+	<row>
+		<field name="id">12</field>
+		<field name="description">Item Excluído Habilidade 2</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">2</field>
+		<field name="status">INATIVO</field>
+	</row>
+	<row>
+		<field name="id">13</field>
+		<field name="description">Item Excluido Habilidade 3</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">EXCLUIDO</field>
+	</row>
+	<row>
+		<field name="id">14</field>
+		<field name="description">Item Inativo Habilidade 3</field>
+		<field name="correto">0</field>
+		<field name="habilidade_id">3</field>
+		<field name="status">INATIVO</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

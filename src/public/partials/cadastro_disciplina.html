@@ -1,0 +1,26 @@
+<section class="page-header">
+    <h1>Cadastro de Disciplina</h1>
+</section>
+<ol class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="/disciplinas">Disciplinas</a></li>
+    <li class="active">Cadastro de Disciplina</li>
+</ol>
+<div class="alert alert-danger error" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span id="error"></span>
+</div>
+
+<fieldset>
+    <form id="form_disciplina">
+        <input type="hidden" name="id" id="id" />
+        <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Descrição" required="required">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success pull-right" id="btn_salvar_disciplina">
+                <i class="glyphicon glyphicon-ok"></i> Salvar</button>
+    </form>
+</fieldset>
+<script type="text/javascript" src="../../app/cadastro_disciplina.js"></script>

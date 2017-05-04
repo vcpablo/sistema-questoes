@@ -1,0 +1,147 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4d5897d0aebe6de60e5bd52f2b3bb16a",
+    "packages": [
+        {
+            "name": "phputil/json",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagodp/json.git",
+                "reference": "0b28ebe71c79534fe55e44ce0dd90b0ffcf3a8bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagodp/json/zipball/0b28ebe71c79534fe55e44ce0dd90b0ffcf3a8bd",
+                "reference": "0b28ebe71c79534fe55e44ce0dd90b0ffcf3a8bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0",
+                "phputil/rtti": ">=1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phputil\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Delgado Pinto"
+                }
+            ],
+            "description": "A JSON encoder and decoder that can also convert PHP objects with private or protected attributes.",
+            "homepage": "http://github.com/thiagodp/json",
+            "keywords": [
+                "decode",
+                "encode",
+                "json",
+                "object",
+                "php",
+                "private",
+                "protected"
+            ],
+            "time": "2016-11-11T21:30:35+00:00"
+        },
+        {
+            "name": "phputil/pdowrapper",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagodp/pdowrapper.git",
+                "reference": "4b9b72f7219a6d7d053263e1162b9d59747e2370"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagodp/pdowrapper/zipball/4b9b72f7219a6d7d053263e1162b9d59747e2370",
+                "reference": "4b9b72f7219a6d7d053263e1162b9d59747e2370",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phputil\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Delgado Pinto"
+                }
+            ],
+            "description": "A useful PDO wrapper.",
+            "homepage": "http://github.com/thiagodp/pdowrapper",
+            "keywords": [
+                "pdo",
+                "php"
+            ],
+            "time": "2016-05-18T18:51:17+00:00"
+        },
+        {
+            "name": "phputil/rtti",
+            "version": "1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagodp/rtti.git",
+                "reference": "f73326dded0733e7739930a2400a426ede50261d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagodp/rtti/zipball/f73326dded0733e7739930a2400a426ede50261d",
+                "reference": "f73326dded0733e7739930a2400a426ede50261d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phputil\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3"
+            ],
+            "authors": [
+                {
+                    "name": "Thiago Delgado Pinto"
+                }
+            ],
+            "description": "A Run-Time Type Information extractor, useful for getting/setting private attributes from/to PHP objects.",
+            "homepage": "http://github.com/thiagodp/rtti",
+            "keywords": [
+                "php",
+                "private",
+                "protected",
+                "rtti",
+                "run-time"
+            ],
+            "time": "2016-11-11T21:17:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

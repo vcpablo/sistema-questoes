@@ -1,0 +1,7 @@
+SetEnv APPLICATION_ENVIRONMENT development
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !.(ico,css,js,jpg,gif,png)$ 
+RewriteRule !^index.php$ index.php [L]

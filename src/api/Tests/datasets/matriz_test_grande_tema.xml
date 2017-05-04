@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="matriz_test">
+	<table_data name="grande_tema">
+	<row>
+		<field name="id">1</field>
+		<field name="descricao">Grande Tema Ativo</field>
+		<field name="disciplina_id">1</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="descricao">Grande Tema Inativo</field>
+		<field name="disciplina_id">1</field>
+		<field name="status">INATIVO</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="descricao">Grande Tema Excluído</field>
+		<field name="disciplina_id">1</field>
+		<field name="status">INATIVO</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="descricao">Grande Tema Disciplina Inativa</field>
+		<field name="disciplina_id">2</field>
+		<field name="status">ATIVO</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="descricao">Grande Tema Disciplina Excluída</field>
+		<field name="disciplina_id">3</field>
+		<field name="status">ATIVO</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

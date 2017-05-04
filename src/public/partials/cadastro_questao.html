@@ -1,0 +1,119 @@
+<section class="page-header">
+    <h1>Cadastro de Questão</h1>
+</section>
+<ol class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li><a href="/questoes">Questões</a></li>
+    <li class="active">Cadastro de Questão</li>
+</ol>
+<div class="alert alert-danger error" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span id="error"></span>
+</div>
+<fieldset>
+    <form id="form_questao">
+        <div class="form-group">
+            <label for="descrição">Tipo</label>
+            <select class="form-control" name="tipo" id="tipo" required="required">
+                <option value="" selected>Selecione uma opção</option>
+                <option value="DISSERTATIVA">Dissertativa</option>
+                <option value="MULTIPLA_ESCOLHA">Múltipla Escolha</option>
+                <option value="VERDADEIRO_FALSO">Verdadeiro / Falso</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Disciplina</label>
+            <select class="form-control" name="disciplina" id="disciplina" required="required">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Grande Tema</label>
+            <select class="form-control" name="grande_tema" id="grande_tema" required="required" disabled="disabled">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Objeto de Conhecimento</label>
+            <select class="form-control" name="objeto_conhecimento" id="objeto_conhecimento" required="required" disabled="disabled">
+            </select>
+        </div>
+        <div class="form-group hidden" id="filtro_competencia">
+            <div for="descrição">
+                <label>Filtrar por Competência</label>
+            </div>
+            <select class="form-control" name="competencia" id="competencia">
+                
+                <option value="">Todas</option>
+                <option value="COMPREENDER">Compreender</option>
+                <option value="OBSERVAR">Observar</option>
+                <option value="REALIZAR">Realizar</option>
+            </select>
+            
+        </div>
+        <div class="form-group hidden" id="selecione_habilidade">
+            <label for="descrição">Selecione uma habilidade</label>
+            <div id="habilidades">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descricao">Enunciado</label>
+            <textarea rows="5" class="form-control" id="descricao" name="descricao" placeholder="Descrição" required="required"></textarea>
+        </div>
+        <div class="form-group hidden" id="configuracao_itens">
+            <fieldset>
+                <legend>Itens</legend>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_item">
+                        <i class="glyphicon glyphicon-plus"></i> Adicionar Item
+                    </button>
+                </div>
+                <div id="itens">
+                </div>
+            </fieldset>
+        </div>
+        <hr>
+        <button type="submit" class="btn btn-success pull-right">
+            <i class="glyphicon glyphicon-ok"></i> Salvar
+        </button>
+    </form>
+</fieldset>
+<div class="modal fade" id="modal_item" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Cadastro de Item</h4>
+            </div>
+            <form id="form_item">
+                <div class="modal-body">
+                    <input type="hidden" name="item_id" id="item_id" />
+                    <div class="form-group">
+                        <label for="descricao">Descrição</label>
+                        <input type="text" class="form-control" id="item_descricao" name="item_descricao" placeholder="Descrição" required="required">
+                    </div>
+                    <div class="form-group">
+                        <div for="descrição">
+                            <label>Correto</label>
+                        </div>
+                        <label class="radio-inline">
+                            <input type="radio" name="item_correto" id="sim" value="1"> Sim
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="item_correto" id="nao" value="0" checked> Não
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        <i class="glyphicon glyphicon-remove"></i> Cancelar
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        <i class="glyphicon glyphicon-ok"></i> Salvar
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<script type="text/javascript" src="../../app/cadastro_questao.js"></script>

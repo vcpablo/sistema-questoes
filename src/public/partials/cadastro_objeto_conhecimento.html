@@ -1,0 +1,37 @@
+<section class="page-header">
+  <h1>Cadastro de Objeto de Conhecimento</h1>
+</section>
+<ol class="breadcrumb">
+  <li><a href="">Home</a></li>
+  <li><a href="/objetos_conhecimento">Objetos de Conhecimento</a></li>
+  <li class="active">Cadastro de Objeto de Conhecimento</li>
+</ol>
+<div class="alert alert-danger error" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span id="error"></span>
+</div>
+<fieldset>
+  <form id="form_objeto_conhecimento">
+    <input type="hidden" name="id" id="id" />
+    <div class="form-group">
+      <label for="disciplina">Disciplina</label>
+      <select class="form-control" name="disciplina" id="disciplina" required="required">
+      </select>
+    </div>
+
+    <div class="form-group">
+    <label for="grande_tema">Grande Tema</label>
+      <select class="form-control" name="grande_tema" id="grande_tema" required="required" disabled>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="descricao">Descrição</label>
+      <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Descrição" required="required">
+    </div>
+    <button type="submit" class="btn btn-success">
+    <i class="glyphicon glyphicon-ok"></i> Salvar</button>
+  </form>
+</fieldset>
+
+<script type="text/javascript" src="../../app/cadastro_objeto_conhecimento.js"></script>

@@ -1,0 +1,84 @@
+<section class="page-header">
+    <h1>Gerar Teste</h1>
+</section>
+<ol class="breadcrumb">
+    <li><a href="">Home</a></li>
+    <li class="active">Gerar Teste</li>
+</ol>
+<div class="alert alert-danger error" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span id="error"></span>
+</div>
+<fieldset>
+    <form id="form_teste">
+        <div class="form-group">
+            <div class="row">
+                <label class="col-sm-3" for="numero_questoes">Número de Questões </label>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <input type="number" class="form-control input-sm" required="required" min="1" id="numero_questoes" value="1" name="numero_questoes" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Tipos de Questão <a href="javascript:void(0)" id="definir_tipos_questoes"><i class="glyphicon glyphicon-filter"></i> Definir Tipos de Questões</a></label>
+            <div id="tipos_questoes">
+                Todos
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Disciplina <a href="javascript:void(0)" id="definir_disciplinas"><i class="glyphicon glyphicon-filter"></i> Definir Disciplinas</a></label>
+            <div id="disciplinas">
+                Todas
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Grande Tema <a href="javascript:void(0)" id="definir_grandes_temas"><i class="glyphicon glyphicon-filter"></i> Definir Grandes Temas</a></label>
+            <div id="grandes_temas">
+                Todos
+            </div>
+            <!-- <select class="form-control" name="grande_tema" id="grande_tema" required="required">
+            </select> -->
+        </div>
+        <div class="form-group">
+            <label for="descrição">Objeto de Conhecimento <a href="javascript:void(0)" id="definir_objetos_conhecimento"><i class="glyphicon glyphicon-filter"></i> Definir Objetos de Conhecimento</a></label>
+            <div id="objetos_conhecimento">
+                Todos
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Competências <a href="javascript:void(0)" id="definir_competencias"><i class="glyphicon glyphicon-filter"></i> Definir Competências</a></label>
+            <div id="competencias">
+                Todas
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Habilidades <a href="javascript:void(0)" id="definir_habilidades"><i class="glyphicon glyphicon-filter"></i> Definir Habilidades</a></label>
+            <div id="habilidades">
+                Todas
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descrição">Questões <a href="javascript:void(0)" id="definir_questoes"><i class="glyphicon glyphicon-filter"></i> Definir Questões</a></label>
+            <div id="questoes">
+                Todas
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="button" id="btn_recomecar" class="btn btn-warning">
+                <i class="glyphicon glyphicon-refresh"></i> Recomeçar</button>
+            <button type="submit" id="btn_gerar_teste" class="btn btn-success">
+                <i class="glyphicon glyphicon-ok"></i> Gerar Teste</button>
+        </div>
+        <div class="form-group hidden" id="teste_gerado">
+            <fieldset>
+                <legend>Teste Gerado</legend>
+                <div id="teste_questoes">
+                </div>
+            </fieldset>
+        </div>
+        <hr>
+    </form>
+</fieldset>
+<script type="text/javascript" src="../../app/gerar_teste.js"></script>
