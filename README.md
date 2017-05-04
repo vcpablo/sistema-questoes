@@ -9,6 +9,9 @@ CEFET Campus Nova Friburgo / RJ - Sistema de Gerenciamento de Questões
 ## Node e NPM
 Baixe e instale a versão mais recente do NodeJS e NPM https://nodejs.org/en/download/
 
+## PHP
+Baixe a versão mais recente do PHP http://php.net/downloads.php e descompacte na pasta `C:/PHP7`
+
 ## Composer
 Baixe e instale a versão mais recente do Composer https://getcomposer.org/download/
 
