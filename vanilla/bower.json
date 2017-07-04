@@ -1,0 +1,30 @@
+{
+    "name": "cefet-web",
+    "description": "CEFET Web",
+    "main": [],
+    "dependencies": {
+        "jquery": "^3.1.1",
+        "bootstrap": "^3.3.7"
+    },
+    "devDependencies": {},
+    "moduleType": [],
+    "keywords": [
+        "cefet",
+        "javascript",
+        "web"
+    ],
+    "authors": [
+        "Pablo Veiga"
+    ],
+    "license": "MIT",
+    "private": true,
+    "overrides": {
+        "amcharts3": {
+            "main": [
+              "amcharts/amcharts.js",
+              "amcharts/funnel.js",
+              "amcharts/plugins/animate/animate.min.js"
+            ]
+        }
+    }
+}
